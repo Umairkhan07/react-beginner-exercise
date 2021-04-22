@@ -20,7 +20,7 @@ export default class Greets extends Component {
       {
         counter: this.state.counter - 1,
       },
-      () => console.log("Decreament")
+      () => console.log("Decrement")
     );
   }
   reset() {
